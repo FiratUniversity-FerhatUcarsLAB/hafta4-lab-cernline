@@ -22,7 +22,7 @@
         //double gpa;
 
         //Kullanicidan bilgi alma
-        System.out.println("Lütfen öğrenci bilgilerinizi giriniz.");
+        System.out.println("=== Öğrenci Bilgi Sistemi ===");
         System.out.println();
 
         //Ad
@@ -46,7 +46,7 @@
         double gpa = input.nextDouble();
 
         //Bilgileri ekrana yazdırma
-        System.out.println("\n--- Öğrenci Bilgileri ---");
+        System.out.println("=== Öğrenci Bilgi Sistemi ===");
         System.out.println("Ad: " + ad);
         System.out.println("Soyad: " + soyad);
         System.out.println("Öğrenci No: " + ogrenciNo);
@@ -55,7 +55,7 @@
         String durum = (gpa >= 2.0) ? "Başarılı öğrenci" : "Başarısız öğrenci";
         System.out.println("Durum: " + durum);
 
-        //Çözüm
+        //Cozum
         // Scanner ile kullanıcıdan öğrenci bilgileri alınır.
         // Bilgiler String, int ve double değişkenlerinde saklanır.
         // Sonuçlar ekrana düzenli biçimde yazdırılır.
