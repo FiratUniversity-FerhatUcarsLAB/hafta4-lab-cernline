@@ -52,6 +52,8 @@
         System.out.println("Öğrenci No: " + ogrenciNo);
         System.out.println("Yaş: " + yas);
         System.out.println("GPA: " + gpa);
+        String durum = (gpa >= 2.0) ? "Başarılı öğrenci" : "Başarısız öğrenci";
+        System.out.println("Durum: " + durum);
 
         //Çözüm
         // Scanner ile kullanıcıdan öğrenci bilgileri alınır.
