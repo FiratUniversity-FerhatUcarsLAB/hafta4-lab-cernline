@@ -38,11 +38,11 @@
         System.out.println();
         System.out.println("SONUCLAR:");
         System.out.println("----------");
-        System.out.printf("Dairenin Alanı: %.2f cm²%n", daireAlani);
-        System.out.printf("Dairenin Çevresi: %.2f cm%n", daireCevresi);
-        System.out.printf("Dairenin Çapı: %.2f cm%n", daireCapi);
-        System.out.printf("Kürenin Hacmi: %.2f cm³%n", kureHacmi);
-        System.out.printf("Kürenin Yüzey Alanı: %.2f cm²%n", kureYuzeyAlani);
+        System.out.printf("Dairenin Alanı        : %.2f cm²%n", daireAlani);
+        System.out.printf("Dairenin Çevresi      : %.2f cm%n", daireCevresi);
+        System.out.printf("Dairenin Çapı         : %.2f cm%n", daireCapi);
+        System.out.printf("Kürenin Hacmi         : %.2f cm³%n", kureHacmi);
+        System.out.printf("Kürenin Yüzey Alanı   : %.2f cm²%n", kureYuzeyAlani);
         
         // COZUM
         // Kullanıcıdan double tipinde yarıçap alınır.
