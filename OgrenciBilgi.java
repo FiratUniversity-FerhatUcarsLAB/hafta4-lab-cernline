@@ -1,60 +1,65 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
- * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
+ * Ad Soyad: Ceren Çam
+ * Ogrenci No: 250541073
+ * Tarih: 02.11.2025
+ * Aciklama: Gorev1 - Ogrenci Bilgi Sistemi
  * 
- * Bu program kullanicidan ogrenci bilgilerini alir ve
- * duzenli bir formatta ekrana yazdirir.
- * Diğer java dosyalarının başında da bu örnek formattaki gibi kısa bilgi giriniz
+ * Bu program kullanicidan ogrenci bilgilerini alir
+ * ve duzenli bir formatta ekrana yazdirir.
  */
 
-import java.util.Scanner;
+ import java.util.Scanner;
 
-public class OgrenciBilgi {
+ public class OgrenciBilgi {
     public static void main(String[] args) {
-        // Scanner objesi olusturun
-        
-        
-        // Degisken tanimlamalari
-        // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
-        
-        
-        // Kullanicidan bilgileri alin
-        System.out.println("=== OGRENCI BILGI SISTEMI ===");
-        System.out.println();
-        
-        // Ad
-        
-        
-        // Soyad
-        
-        
-        // Ogrenci No
-        
-        
-        // Yas
-        
-        
-        // GPA
-        
-        
-        // Bilgileri ekrana yazdirin
-        System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
-        
-        // COZUMUNUZU BURAYA YAZIN
-        
-        
-        
-        
-        
-        
 
-        
-        
-        // Scanner'i kapatin (önemli pratik)
-        
+        // Scanner nesnesi olusturma
+        Scanner input = new Scanner(System.in);
+
+        //Degisken tanimlamalari
+        //String ad, soyad;
+        //int ogrenciNo, yas;
+        //double gpa;
+
+        //Kullanicidan bilgi alma
+        System.out.println("Lütfen öğrenci bilgilerinizi giriniz.");
+        System.out.println();
+
+        //Ad
+        System.out.println("Adınızı giriniz: ");
+        String ad = input.nextLine();
+
+        //Soyad
+        System.out.println("Soyadınızı giriniz: ");
+        String soyad = input.nextLine();
+
+        //Ogrenci No
+        System.out.println("Öğrenci numaranızı giriniz: ");
+        int ogrenciNo = input.nextInt();
+
+        //Yas
+        System.out.println("Yaşınızı giriniz: ");
+        int yas = input.nextInt();
+
+        //GPA
+        System.out.println("GPA'nızı giriniz: ");
+        double gpa = input.nextDouble();
+
+        //Bilgileri ekrana yazdırma
+        System.out.println("\n--- Öğrenci Bilgileri ---");
+        System.out.println("Ad: " + ad);
+        System.out.println("Soyad: " + soyad);
+        System.out.println("Öğrenci No: " + ogrenciNo);
+        System.out.println("Yaş: " + yas);
+        System.out.println("GPA: " + gpa);
+
+        //Çözüm
+        // Scanner ile kullanıcıdan öğrenci bilgileri alınır.
+        // Bilgiler String, int ve double değişkenlerinde saklanır.
+        // Sonuçlar ekrana düzenli biçimde yazdırılır.
+        // Program sonunda Scanner kapatılır.
+
+        // Scanner kapatma
+        input.close();
     }
-}
+ }
